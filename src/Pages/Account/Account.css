@@ -1,0 +1,528 @@
+
+
+
+
+
+.DarkHeading{
+  
+  background: #03316d;
+  color: #fff;
+  
+  
+}
+.col-align-right{
+  justify-content: end;
+  display: flex;
+
+}
+.edit-bar{
+  background: #03316d linear-gradient(99deg, #063579 0%, #074EB4 100%) !important;
+padding: 5px;
+margin: 0 15px 15px;
+
+}
+.slim-btn{
+  padding: 1px 5px !important;
+  font-size: 12px !important;
+  background-color: #fff;
+    
+}
+.col-align-right .btn-custom{
+  padding: 3px 5px;
+    font-size: 14px;
+    min-width: 120px;
+}
+
+.col-align-right.mt-3 .btn {
+  padding: 3px 10px;
+  font-size: 14px;
+  min-width: 100px;
+}
+
+
+.patients-search-results{
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+  width: auto;
+  max-height: 130px;
+  min-height: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  padding: 0 2px;
+  top: 61px;
+  left: 12px;
+  right: 12px;
+  z-index: 100;
+  font-size: 14px;
+  font-family: Roboto;
+  border-radius: 3px !important;
+}
+.searchbarholder .patients-search-results {
+    top: 70px;
+}
+
+.patients-advance-search-results{
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+  width: auto;
+  max-height: 130px;
+  min-height: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;  
+  padding: 0 2px;  
+  z-index: 100;
+  font-size: 14px;
+  font-family: Roboto;
+  border-radius: 3px !important;
+}
+
+.sticky-top{
+position: sticky;
+top: 0;
+
+}
+
+
+
+
+.rowhover:hover {
+  
+  background: #eee;
+
+}
+.disabled-field{
+  background: rgb(231, 222, 222);
+
+}
+
+#filter.input-style {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.input-style.form-control{
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+
+.input-style.form-control:disabled{
+  background:#ddd !important;
+  color: #999;
+}
+
+
+.text-center{
+  text-align:center;}
+
+
+.small-button{
+padding: 1px 5px;
+border: 1px solid #999;
+font-size: 12px;
+font-family: Roboto;
+border-radius: 3px;
+
+}
+
+
+/*signup form css block start*/
+form.grayform {
+  background: #eee;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form.grayform img {
+  margin: 0 auto 31px;
+  display: block;
+}
+
+.pageheight-full {
+  min-height: 100vh;
+    display: flex;
+    align-items: center;
+ }
+
+ /*signup form css block end*/
+
+
+ /*patient search CSS settings*/
+ .searchbarholder  input#filter {
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px !important;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(255, 255, 255) !important;
+  margin: 10px 0 0;
+}
+.searchbarholder  input#filter:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+.searchbarholder  input#filter[disabled] {
+background: #ddd !important;
+    color: #999;
+}
+
+.draftbar1 {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.savePatient {
+display: block;
+width: 100%;
+overflow: hidden;
+text-align: end;
+}
+
+.searchbarholder button.primary.btn.button.w-100.btn.btn-primary {
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 14px;
+}
+
+.searchbarholder .flexendcol {
+  display: flex;
+  align-items: end;
+  padding-bottom: 1px;
+}
+
+.searchbarholder .col-align-right {
+  width: 100%;
+}
+
+.invalid-feedback {
+  position: relative;
+  top: -8px;
+}
+  .positionedtopright{
+    position:fixed !important;
+    bottom:110px;
+    right:50px;
+    }
+    /* .fade.toast.show {
+      background: #03316d !important;
+  } */
+  
+  
+
+  .success {
+    background-color: #5cb85c;
+  }
+  
+  .danger {
+    background-color: #d9534f;
+  }
+  
+  .info {
+    background-color: #5bc0de;
+  }
+  
+  .warning {
+    background-color: #f0ad4e;
+  }
+  .notification {
+    padding: 15px 15px !important;
+    opacity: 0.9;
+    color: white;
+    border-radius: 10px;
+    padding-right: 30px !important;
+    z-index: 1201;
+  }
+  
+  svg.closeButton:hover {
+    opacity: 1;
+  }
+  svg.closeButton {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    opacity: 0.5;
+  }
+
+  .InsuranceCompanies .patients-search-results .col:nth-child(1) {
+    flex: 0 0 auto;
+    width: 40%;
+}
+.InsuranceCompanies .patients-search-results .col:nth-child(2) {
+    flex: 0 0 auto;
+    width: 30%;
+}
+.InsuranceCompanies .patients-search-results .col:nth-child(3) {
+    flex: 0 0 auto;
+    width: 30%;
+}
+/* .InsuranceCompanies .patients-search-results{top:61px} */
+
+.patients-search-results {
+  font-family: 'Roboto';
+}
+
+.react-datepicker__current-month.react-datepicker__current-month--hasYearDropdown.react-datepicker__current-month--hasMonthDropdown {
+  display: none;
+}
+
+
+body .react-datepicker__header {
+  background: #398fda;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+.react-datepicker__day-name {
+  color: #fff;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  font-family: 'Roboto';
+}
+
+select.react-datepicker__month-select,
+.react-datepicker__year-dropdown-container.react-datepicker__year-dropdown-container--select select{
+    border: 0 none transparent !important;
+    border-radius: 3px !important;
+    font-family:'roboto';
+}
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+  border-bottom-color: #398fda;
+}
+.react-datepicker-popper {
+  z-index: 1021;
+}
+.react-datepicker__year-read-view--down-arrow, .react-datepicker__month-read-view--down-arrow, .react-datepicker__month-year-read-view--down-arrow, .react-datepicker__navigation-icon::before {
+  border-color: #fff;
+}
+
+.mandatory.InsuranceCompanies.close_to_bottom .patients-search-results {
+  top: auto;
+  bottom: 51px;
+}
+.spinner_field {
+  position: absolute;
+  bottom: 19px;
+  right: 20px;
+}
+input#filter + .spinner_field {
+  top: 41px;
+}
+
+.patients-advance-search-results .row.selected {
+  background: #398fda !important;
+  color:#fff !important;
+  cursor: pointer;
+}
+
+.patients-advance-search-results:not(.noHover) .row:not(.DarkHeading):hover {
+  background: #eee;
+  color:#212529;
+  /* cursor: pointer; */
+}
+.patients-advance-search-results .row svg{
+  cursor: pointer;
+}
+html body .form-switch.form-check-reverse {padding-right: 0;padding-left: 2.5em;}
+
+html body .form-switch.form-check-reverse .form-check-input {
+    margin-left: -2.5em;
+    margin-right: 0;
+}
+
+.pannel{
+  max-height: 173px;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+.pannel .row {
+  align-content: space-evenly;
+  border:1px solid #ddd;
+  border-top:0 none transparent;
+}
+
+.pannel .row > div {
+  align-items: center;
+  display: flex;
+  padding-top:5px;
+  padding-bottom:5px;
+  /* padding: 7px; */
+}
+.pannel .row > div {
+  border-left:1px solid #ddd
+}
+.pannel_heading.row {
+  background: #06367a ;
+  color: #fff;
+}
+.pannel  input.input-style.form-control {
+  margin: 0;
+}
+.pannel  .icons_actions {
+  justify-content: space-around;
+}
+svg.favIcon {
+  margin-right: 5px;
+  min-width: 20px;
+}
+.pannel_heading.sticky-top.row {
+  z-index: 90;
+}
+
+svg.favPlusIcon {
+  font-size: 20px;
+  margin-right: 5px;
+  min-width: 20px;
+  cursor: pointer;
+}
+.iconInfo{
+  font-size: 20px;
+  margin-right: 5px;
+  min-width: 20px;
+  cursor: pointer;
+}
+.groupIcon{
+  font-size: 20px;
+  margin-right: 0px;
+  min-width: 20px;
+  cursor: pointer;
+}
+.trashcanIcon{
+  font-size: 18px;
+  margin-top: 1px;
+  margin-right: 5px;
+  min-width: 20px;
+  cursor: pointer;
+}
+.clinicalRadio.form-check {
+  display: inline-block;
+  margin-right: 15px;
+  white-space: nowrap;
+}
+
+label.clinicalRadioLabel.form-label {
+  display: block;
+}
+.pills {
+  padding: 6px 12px;
+  /* border: 1px solid #398fda; */
+  border-radius: 4px;
+  display: flex;
+  background: #eee;
+  align-items: flex-start;
+  overflow-wrap: anywhere;
+}
+
+.pills >  span {
+  margin-right: auto;
+}
+
+textarea#customTextarea {
+  height: auto !important;
+  min-height: auto !important;
+}
+.non-selective input[type=radio] {
+  display: none;
+  
+}
+.non-selective label{
+ 
+    pointer-events:none;
+    opacity:0.5;
+  
+}
+.scheduleDays.row {
+  flex-direction: row !important;
+  /* justify-items: center; */
+  justify-content: center;
+}
+
+.scheduleDays .form-check {
+  width: auto;
+}
+
+.scheduleType.row, .monthlyScheduleWeeks {justify-content: center;}
+
+.calendarsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.calendars {
+  /* width: 33.33%; */
+  padding: 20px;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+
+.calendars > div {
+  width: 100%;
+}
+
+.calendarsDiv {
+  align-items: stretch;
+}
+
+.calendars {align-items: stretch;}
+
+.calendars>div {
+  display: flex;
+  align-items: stretch;
+}
+.customModel .customParentDiv {
+  top: 60px;
+}
+
+.testsGroupModalBody {
+  height: 400px;
+  overflow-y: scroll;
+}
+.hideAccordian{
+  display: none;
+}
+
+/* .section-title-account {
+  font-weight: 600;
+  color: #a00000;
+  margin-top: 15px;
+  margin-bottom: 10px;
+} */
+
+.section-title-account {
+  background-color: #f0f0f0; /* light grey */
+  font-weight: 600;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+  color: #d71e28;
+  margin-bottom: 10px;
+}

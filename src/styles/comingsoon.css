@@ -1,0 +1,9 @@
+
+.coming-soon-content.text-center.container {
+    min-height: calc(100vh - 135px);
+}
+
+
+.coming-soon-content.text-center.container {
+    align-content: center;
+}
